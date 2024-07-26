@@ -1,0 +1,46 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.mt:maven-stanalone-application >-----------------
+[INFO] Building maven-stanalone-application 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ maven-stanalone-application ---
+[INFO] Deleting /home/devy2/jp/maven-standalone-application/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ maven-stanalone-application ---
+[INFO] skip non existing resourceDirectory /home/devy2/jp/maven-standalone-application/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ maven-stanalone-application ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug target 1.8] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ maven-stanalone-application ---
+[INFO] skip non existing resourceDirectory /home/devy2/jp/maven-standalone-application/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ maven-stanalone-application ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug target 1.8] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.2.2:test (default-test) @ maven-stanalone-application ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit.JUnit3Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.mt.sample.test.HelloWorldTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.287 s -- in com.mt.sample.test.HelloWorldTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.1.0:jar (default-jar) @ maven-stanalone-application ---
+[INFO] Building jar: /home/devy2/jp/maven-standalone-application/target/maven-stanalone-application-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.980 s
+[INFO] Finished at: 2024-07-26T03:58:07-04:00
+[INFO] ------------------------------------------------------------------------
